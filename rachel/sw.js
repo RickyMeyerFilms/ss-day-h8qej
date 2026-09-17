@@ -1,4 +1,4 @@
-var C = "ss-rachel-99c743ce78";
+var C = "ss-rachel-77294511ed";
 var FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(C).then(function (c) { return c.addAll(FILES); })
